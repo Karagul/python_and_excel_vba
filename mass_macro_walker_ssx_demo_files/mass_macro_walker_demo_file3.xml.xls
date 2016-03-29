@@ -1,0 +1,2327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <evt type="CprSessionInfo" msecs="0">
+        <param type="cprProtocol" value="4"/>
+        <param type="manikinType" value="41"/>
+        <param type="manikinStiffness" value="2"/>
+        <param type="cprCardId" value=""/>
+        <param type="simulationType" value="6"/>
+        <param type="totalTime" value="120" units="sec"/>
+        <param type="manikinName" value="Resusci Baby"/>
+        <param type="students" value="35"/>
+        <param type="manikinFirmwareVersion" value="1.6.0.22845"/>
+        <param type="manikinRfidVersion" value="0.0.0"/>
+        <param type="manikinSkillGuideVersion" value="0.0"/>
+        <param type="manikinCompressionCount" value="102094"/>
+        <param type="startTime" value="2015-11-07T03:57:21+01:00"/>
+        <param type="compInactivity" value="68" units="sec"/>
+        <param type="waveDelay" value="0" units="ms"/>
+        <param type="endTime" value="2015-11-07T03:59:22+00:59"/>
+    </evt>
+    <evt type="CprSessionStatistics" msecs="120000">
+        <param type="sessionDuration" value="120" units="sec"/>
+        <param type="ventCount" value="23"/>
+        <param type="ventCyclesCount" value="10"/>
+        <param type="ventCorrectVolumePercentage" value="96" units="percent"/>
+        <param type="ventCorrectRateCprPercentage" value="4" units="percent"/>
+        <param type="ventMeanVolume" value="29" units="ml"/>
+        <param type="ventNotEnoughVolumePercentage" value="4" units="percent"/>
+        <param type="ventMeanRate" value="12" units="vpm"/>
+        <param type="ventCorrectRateVentOnlyPercentage" value="-1" units="percent"/>
+        <param type="compCorrectRatePercentage" value="86" units="percent"/>
+        <param type="compCount" value="153"/>
+        <param type="compMeanRate" value="116"/>
+        <param type="ventTooMuchVolumePercentage" value="0" units="percent"/>
+        <param type="compCorrectReleasePercentage" value="94" units="percent"/>
+        <param type="compHandPosCorrectPercentage" value="95" units="percent"/>
+        <param type="compCorrectDepthPercentage" value="99"/>
+        <param type="inactivityAverageTime" value="4"/>
+        <param type="inactivityTime" value="40" units="sec"/>
+        <param type="cprCardTimestamp" value="0" units="sec"/>
+        <param type="timeFirstShock" value="-1" units="ms"/>
+        <param type="timeFirstComp" value="8" units="ms"/>
+        <param type="timeFirstVent" value="1" units="ms"/>
+        <param type="compCyclesCount" value="9"/>
+        <param type="compInactivityPeriodCount" value="10"/>
+        <param type="compMeanDepth" value="4132" units="hmm"/>
+        <param type="compStdDeviationDepth" value="89" units="hmm"/>
+        <param type="compMeanReleaseDepth" value="311" units="hmm"/>
+        <param type="compStdDeviationReleaseDepth" value="144" units="hmm"/>
+        <param type="compStdDeviationRate" value="5" units="cpm"/>
+        <param type="ventStdDeviationVolume" value="5" units="ml"/>
+        <param type="ventStdDeviationRate" value="17" units="vpm"/>
+        <param type="compHandPosXiphoidErrorPercentage" value="5" units="percent"/>
+        <param type="compMeanStrokeLength" value="3822" units="hmm"/>
+        <param type="compStdDeviationStrokeLength" value="209" units="hmm"/>
+        <param type="compTooLowRatePercentage" value="0" units="percent"/>
+        <param type="ventTooHighRateCprPercentage" value="96" units="percent"/>
+        <param type="ventTooHighRateVentOnlyPercentage" value="-1" units="percent"/>
+        <param type="ventCorrectInflationTimePercentage" value="-1" units="percent"/>
+        <param type="ventTooFastInflationTimePercentage" value="-1" units="percent"/>
+        <param type="compCorrectStrokeLengthPercentage" value="56"/>
+        <param type="compHistogramDepthBin_0" value="0"/>
+        <param type="compHistogramDepthBin_1" value="7"/>
+        <param type="compHistogramDepthBin_2" value="93"/>
+        <param type="compHistogramDepthBin_3" value="0"/>
+        <param type="compHistogramDepthBin_4" value="0"/>
+        <param type="compHistogramDepthBin_5" value="0"/>
+        <param type="compHistogramReleaseBin_0" value="21"/>
+        <param type="compHistogramReleaseBin_1" value="46"/>
+        <param type="compHistogramReleaseBin_2" value="31"/>
+        <param type="compHistogramReleaseBin_3" value="1"/>
+        <param type="compHistogramReleaseBin_4" value="1"/>
+        <param type="compHistogramReleaseBin_5" value="0"/>
+        <param type="compHistogramRateBin_0" value="0"/>
+        <param type="compHistogramRateBin_1" value="0"/>
+        <param type="compHistogramRateBin_2" value="0"/>
+        <param type="compHistogramRateBin_3" value="64"/>
+        <param type="compHistogramRateBin_4" value="36"/>
+        <param type="compHistogramRateBin_5" value="0"/>
+        <param type="compHistogramInactivityBin_0" value="90"/>
+        <param type="compHistogramInactivityBin_1" value="10"/>
+        <param type="compHistogramInactivityBin_2" value="0"/>
+        <param type="compHistogramInactivityBin_3" value="0"/>
+        <param type="compHistogramInactivityBin_4" value="0"/>
+        <param type="compHistogramInactivityBin_5" value="0"/>
+        <param type="ventHistogramVolumeBin_0" value="9"/>
+        <param type="ventHistogramVolumeBin_1" value="74"/>
+        <param type="ventHistogramVolumeBin_2" value="17"/>
+        <param type="ventHistogramVolumeBin_3" value="0"/>
+        <param type="ventHistogramVolumeBin_4" value="0"/>
+        <param type="ventHistogramVolumeBin_5" value="0"/>
+        <param type="ventHistogramRateBin_0" value="0"/>
+        <param type="ventHistogramRateBin_1" value="39"/>
+        <param type="ventHistogramRateBin_2" value="0"/>
+        <param type="ventHistogramRateBin_3" value="4"/>
+        <param type="ventHistogramRateBin_4" value="0"/>
+        <param type="ventHistogramRateBin_5" value="57"/>
+    </evt>
+    <evt type="CprSessionScore" msecs="120000">
+        <param type="overallScore" value="98" units="percent"/>
+        <param type="categoryThresholdBasic" value="50" units="percent"/>
+        <param type="categoryThresholdAdvanced" value="75" units="percent"/>
+        <param type="primaryAdvice" value="10"/>
+        <param type="secondaryAdvice" value="4"/>
+        <param type="flowTimePercentage" value="67" units="percent"/>
+        <param type="compOverallScore" value="97" units="percent"/>
+        <param type="ventOverallScore" value="99" units="percent"/>
+        <param type="compReleaseScoreReduction" value="0" units="percent"/>
+        <param type="compDepthScoreReduction" value="0" units="percent"/>
+        <param type="compRateLowScoreReduction" value="0" units="percent"/>
+        <param type="compRateHighScoreReduction" value="1" units="percent"/>
+        <param type="compHandposScoreReduction" value="2" units="percent"/>
+        <param type="ventShallowScoreReduction" value="1" units="percent"/>
+        <param type="ventExcessiveScoreReduction" value="0" units="percent"/>
+        <param type="ventRateLowScoreReduction" value="0" units="percent"/>
+        <param type="ventRateHighScoreReduction" value="0" units="percent"/>
+        <param type="ventPauseScoreReduction" value="0" units="percent"/>
+        <param type="ventCyclesScoreReduction" value="0" units="percent"/>
+        <param type="compDepthStrokeLengthScoreReduction" value="0" units="percent"/>
+        <param type="compDeepDepthScoreReduction" value="0" units="percent"/>
+        <param type="compCyclesScoreReduction" value="0" units="percent"/>
+        <param type="compFlowtimeScoreReduction" value="0" units="percent"/>
+    </evt>
+    <evt type="CprVentEvent" msecs="1210">
+        <param type="endTime" value="1820"/>
+        <param type="ventVolume" value="26" units="ml"/>
+        <param type="ventRate" value="13" units="vpm"/>
+        <param type="ventInstantaneousPeriod" value="65535" units="ms"/>
+        <param type="ventPeakTime" value="1820" units="ms"/>
+        <param type="ventDuringCompression" value="0"/>
+    </evt>
+    <evt type="CprInactivityCPR" msecs="0">
+        <param type="compInactivity" value="8" units="sec"/>
+    </evt>
+    <evt type="CprVentEvent" msecs="2840">
+        <param type="endTime" value="3340"/>
+        <param type="ventVolume" value="28" units="ml"/>
+        <param type="ventRate" value="26" units="vpm"/>
+        <param type="ventInstantaneousPeriod" value="1520" units="ms"/>
+        <param type="ventPeakTime" value="3340" units="ms"/>
+        <param type="ventDuringCompression" value="0"/>
+    </evt>
+    <evt type="CprVentEvent" msecs="4380">
+        <param type="endTime" value="4800"/>
+        <param type="ventVolume" value="23" units="ml"/>
+        <param type="ventRate" value="40" units="vpm"/>
+        <param type="ventInstantaneousPeriod" value="1470" units="ms"/>
+        <param type="ventPeakTime" value="4800" units="ms"/>
+        <param type="ventDuringCompression" value="0"/>
+    </evt>
+    <evt type="CprVentEvent" msecs="5860">
+        <param type="endTime" value="6340"/>
+        <param type="ventVolume" value="28" units="ml"/>
+        <param type="ventRate" value="40" units="vpm"/>
+        <param type="ventInstantaneousPeriod" value="1540" units="ms"/>
+        <param type="ventPeakTime" value="6340" units="ms"/>
+        <param type="ventDuringCompression" value="0"/>
+    </evt>
+    <evt type="CprVentEvent" msecs="7440">
+        <param type="endTime" value="7900"/>
+        <param type="ventVolume" value="27" units="ml"/>
+        <param type="ventRate" value="39" units="vpm"/>
+        <param type="ventInstantaneousPeriod" value="1550" units="ms"/>
+        <param type="ventPeakTime" value="7900" units="ms"/>
+        <param type="ventDuringCompression" value="0"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="8730">
+        <param type="endTime" value="9380"/>
+        <param type="compDepth" value="41.11" units="mm"/>
+        <param type="compPeakTime" value="9110" units="ms"/>
+        <param type="compInstantaneousPeriod" value="65535" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.11" units="mm"/>
+        <param type="compLeaningDepth" value="0" units="mm"/>
+        <param type="compReleaseDepth" value="6.07" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="1"/>
+        <param type="compIncompleteRelease" value="1"/>
+        <param type="compMeanRate" value="110"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="9410">
+        <param type="endTime" value="9910"/>
+        <param type="compDepth" value="40.86" units="mm"/>
+        <param type="compPeakTime" value="9650" units="ms"/>
+        <param type="compInstantaneousPeriod" value="540" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.86" units="mm"/>
+        <param type="compLeaningDepth" value="6.07" units="mm"/>
+        <param type="compReleaseDepth" value="6.57" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="1"/>
+        <param type="compIncompleteRelease" value="1"/>
+        <param type="compMeanRate" value="111"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="9950">
+        <param type="endTime" value="10430"/>
+        <param type="compDepth" value="39.15" units="mm"/>
+        <param type="compPeakTime" value="10180" units="ms"/>
+        <param type="compInstantaneousPeriod" value="530" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="39.15" units="mm"/>
+        <param type="compLeaningDepth" value="6.57" units="mm"/>
+        <param type="compReleaseDepth" value="3.28" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="1"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="112"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="10460">
+        <param type="endTime" value="10940"/>
+        <param type="compDepth" value="40.62" units="mm"/>
+        <param type="compPeakTime" value="10690" units="ms"/>
+        <param type="compInstantaneousPeriod" value="520" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.62" units="mm"/>
+        <param type="compLeaningDepth" value="3.28" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="1"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="113"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="11030">
+        <param type="endTime" value="11540"/>
+        <param type="compDepth" value="36.71" units="mm"/>
+        <param type="compPeakTime" value="11300" units="ms"/>
+        <param type="compInstantaneousPeriod" value="610" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="36.71" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="0.9" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="1"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="109"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="11630">
+        <param type="endTime" value="12090"/>
+        <param type="compDepth" value="40.37" units="mm"/>
+        <param type="compPeakTime" value="11850" units="ms"/>
+        <param type="compInstantaneousPeriod" value="540" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.37" units="mm"/>
+        <param type="compLeaningDepth" value="0.9" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="1"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="108"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="12120">
+        <param type="endTime" value="12630"/>
+        <param type="compDepth" value="40.62" units="mm"/>
+        <param type="compPeakTime" value="12370" units="ms"/>
+        <param type="compInstantaneousPeriod" value="530" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.62" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="3.88" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="1"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="107"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="12690">
+        <param type="endTime" value="13210"/>
+        <param type="compDepth" value="40.62" units="mm"/>
+        <param type="compPeakTime" value="12920" units="ms"/>
+        <param type="compInstantaneousPeriod" value="540" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.62" units="mm"/>
+        <param type="compLeaningDepth" value="3.88" units="mm"/>
+        <param type="compReleaseDepth" value="0.9" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="1"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="111"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="13280">
+        <param type="endTime" value="13780"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="13490" units="ms"/>
+        <param type="compInstantaneousPeriod" value="570" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="0.9" units="mm"/>
+        <param type="compReleaseDepth" value="2.69" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="108"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="13800">
+        <param type="endTime" value="14260"/>
+        <param type="compDepth" value="40.37" units="mm"/>
+        <param type="compPeakTime" value="14020" units="ms"/>
+        <param type="compInstantaneousPeriod" value="540" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.37" units="mm"/>
+        <param type="compLeaningDepth" value="2.69" units="mm"/>
+        <param type="compReleaseDepth" value="4.48" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="110"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="14310">
+        <param type="endTime" value="14900"/>
+        <param type="compDepth" value="40.62" units="mm"/>
+        <param type="compPeakTime" value="14530" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.62" units="mm"/>
+        <param type="compLeaningDepth" value="4.48" units="mm"/>
+        <param type="compReleaseDepth" value="9.82" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="1"/>
+        <param type="compMeanRate" value="110"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="14940">
+        <param type="endTime" value="15360"/>
+        <param type="compDepth" value="39.63" units="mm"/>
+        <param type="compPeakTime" value="15100" units="ms"/>
+        <param type="compInstantaneousPeriod" value="560" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="39.63" units="mm"/>
+        <param type="compLeaningDepth" value="9.82" units="mm"/>
+        <param type="compReleaseDepth" value="2.99" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="112"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="15420">
+        <param type="endTime" value="15880"/>
+        <param type="compDepth" value="40.62" units="mm"/>
+        <param type="compPeakTime" value="15610" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.62" units="mm"/>
+        <param type="compLeaningDepth" value="2.99" units="mm"/>
+        <param type="compReleaseDepth" value="4.48" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="113"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="15930">
+        <param type="endTime" value="16450"/>
+        <param type="compDepth" value="40.86" units="mm"/>
+        <param type="compPeakTime" value="16140" units="ms"/>
+        <param type="compInstantaneousPeriod" value="530" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.86" units="mm"/>
+        <param type="compLeaningDepth" value="4.48" units="mm"/>
+        <param type="compReleaseDepth" value="5.06" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="1"/>
+        <param type="compMeanRate" value="113"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="16460">
+        <param type="endTime" value="16950"/>
+        <param type="compDepth" value="40.62" units="mm"/>
+        <param type="compPeakTime" value="16680" units="ms"/>
+        <param type="compInstantaneousPeriod" value="550" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.62" units="mm"/>
+        <param type="compLeaningDepth" value="5.06" units="mm"/>
+        <param type="compReleaseDepth" value="4.78" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="112"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="17020">
+        <param type="endTime" value="17500"/>
+        <param type="compDepth" value="40.62" units="mm"/>
+        <param type="compPeakTime" value="17230" units="ms"/>
+        <param type="compInstantaneousPeriod" value="540" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.62" units="mm"/>
+        <param type="compLeaningDepth" value="4.78" units="mm"/>
+        <param type="compReleaseDepth" value="5.31" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="1"/>
+        <param type="compMeanRate" value="111"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="17570">
+        <param type="endTime" value="18060"/>
+        <param type="compDepth" value="40.62" units="mm"/>
+        <param type="compPeakTime" value="17780" units="ms"/>
+        <param type="compInstantaneousPeriod" value="550" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.62" units="mm"/>
+        <param type="compLeaningDepth" value="5.31" units="mm"/>
+        <param type="compReleaseDepth" value="4.48" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="109"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="18100">
+        <param type="endTime" value="18560"/>
+        <param type="compDepth" value="41.11" units="mm"/>
+        <param type="compPeakTime" value="18310" units="ms"/>
+        <param type="compInstantaneousPeriod" value="540" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.11" units="mm"/>
+        <param type="compLeaningDepth" value="4.48" units="mm"/>
+        <param type="compReleaseDepth" value="5.56" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="1"/>
+        <param type="compMeanRate" value="111"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="18690">
+        <param type="endTime" value="19130"/>
+        <param type="compDepth" value="38.9" units="mm"/>
+        <param type="compPeakTime" value="18880" units="ms"/>
+        <param type="compInstantaneousPeriod" value="570" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="38.9" units="mm"/>
+        <param type="compLeaningDepth" value="5.56" units="mm"/>
+        <param type="compReleaseDepth" value="4.48" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="109"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="19200">
+        <param type="endTime" value="19680"/>
+        <param type="compDepth" value="39.63" units="mm"/>
+        <param type="compPeakTime" value="19420" units="ms"/>
+        <param type="compInstantaneousPeriod" value="530" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="39.63" units="mm"/>
+        <param type="compLeaningDepth" value="4.48" units="mm"/>
+        <param type="compReleaseDepth" value="4.48" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="110"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="19760">
+        <param type="endTime" value="20220"/>
+        <param type="compDepth" value="40.62" units="mm"/>
+        <param type="compPeakTime" value="19970" units="ms"/>
+        <param type="compInstantaneousPeriod" value="550" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.62" units="mm"/>
+        <param type="compLeaningDepth" value="4.48" units="mm"/>
+        <param type="compReleaseDepth" value="5.56" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="1"/>
+        <param type="compMeanRate" value="109"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="20280">
+        <param type="endTime" value="20740"/>
+        <param type="compDepth" value="39.88" units="mm"/>
+        <param type="compPeakTime" value="20490" units="ms"/>
+        <param type="compInstantaneousPeriod" value="520" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="39.88" units="mm"/>
+        <param type="compLeaningDepth" value="5.56" units="mm"/>
+        <param type="compReleaseDepth" value="5.31" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="1"/>
+        <param type="compMeanRate" value="112"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="20780">
+        <param type="endTime" value="21240"/>
+        <param type="compDepth" value="38.66" units="mm"/>
+        <param type="compPeakTime" value="21000" units="ms"/>
+        <param type="compInstantaneousPeriod" value="520" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="38.66" units="mm"/>
+        <param type="compLeaningDepth" value="5.31" units="mm"/>
+        <param type="compReleaseDepth" value="4.78" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="113"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="21310">
+        <param type="endTime" value="21810"/>
+        <param type="compDepth" value="40.37" units="mm"/>
+        <param type="compPeakTime" value="21530" units="ms"/>
+        <param type="compInstantaneousPeriod" value="530" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.37" units="mm"/>
+        <param type="compLeaningDepth" value="4.78" units="mm"/>
+        <param type="compReleaseDepth" value="4.78" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="114"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="21830">
+        <param type="endTime" value="22320"/>
+        <param type="compDepth" value="40.37" units="mm"/>
+        <param type="compPeakTime" value="22050" units="ms"/>
+        <param type="compInstantaneousPeriod" value="520" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.37" units="mm"/>
+        <param type="compLeaningDepth" value="4.78" units="mm"/>
+        <param type="compReleaseDepth" value="4.18" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="113"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="22380">
+        <param type="endTime" value="23180"/>
+        <param type="compDepth" value="39.88" units="mm"/>
+        <param type="compPeakTime" value="22610" units="ms"/>
+        <param type="compInstantaneousPeriod" value="550" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="39.88" units="mm"/>
+        <param type="compLeaningDepth" value="4.18" units="mm"/>
+        <param type="compReleaseDepth" value="3.88" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="112"/>
+    </evt>
+    <evt type="CprVentEvent" msecs="23900">
+        <param type="endTime" value="24320"/>
+        <param type="ventVolume" value="27" units="ml"/>
+        <param type="ventRate" value="21" units="vpm"/>
+        <param type="ventInstantaneousPeriod" value="16420" units="ms"/>
+        <param type="ventPeakTime" value="24320" units="ms"/>
+        <param type="ventDuringCompression" value="0"/>
+    </evt>
+    <evt type="CprInactivityCPR" msecs="22760">
+        <param type="compInactivity" value="4" units="sec"/>
+    </evt>
+    <evt type="CprVentEvent" msecs="25290">
+        <param type="endTime" value="25820"/>
+        <param type="ventVolume" value="33" units="ml"/>
+        <param type="ventRate" value="22" units="vpm"/>
+        <param type="ventInstantaneousPeriod" value="1500" units="ms"/>
+        <param type="ventPeakTime" value="25820" units="ms"/>
+        <param type="ventDuringCompression" value="0"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="26720">
+        <param type="endTime" value="27280"/>
+        <param type="compDepth" value="41.85" units="mm"/>
+        <param type="compPeakTime" value="27020" units="ms"/>
+        <param type="compInstantaneousPeriod" value="4410" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.85" units="mm"/>
+        <param type="compLeaningDepth" value="3.88" units="mm"/>
+        <param type="compReleaseDepth" value="4.48" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="112"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="27310">
+        <param type="endTime" value="27780"/>
+        <param type="compDepth" value="41.35" units="mm"/>
+        <param type="compPeakTime" value="27530" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.35" units="mm"/>
+        <param type="compLeaningDepth" value="4.48" units="mm"/>
+        <param type="compReleaseDepth" value="4.78" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="114"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="27830">
+        <param type="endTime" value="28260"/>
+        <param type="compDepth" value="40.62" units="mm"/>
+        <param type="compPeakTime" value="28030" units="ms"/>
+        <param type="compInstantaneousPeriod" value="500" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.62" units="mm"/>
+        <param type="compLeaningDepth" value="4.78" units="mm"/>
+        <param type="compReleaseDepth" value="4.48" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="115"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="28320">
+        <param type="endTime" value="28750"/>
+        <param type="compDepth" value="41.35" units="mm"/>
+        <param type="compPeakTime" value="28510" units="ms"/>
+        <param type="compInstantaneousPeriod" value="480" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.35" units="mm"/>
+        <param type="compLeaningDepth" value="4.48" units="mm"/>
+        <param type="compReleaseDepth" value="4.48" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="122"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="28810">
+        <param type="endTime" value="29250"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="29000" units="ms"/>
+        <param type="compInstantaneousPeriod" value="500" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="4.48" units="mm"/>
+        <param type="compReleaseDepth" value="4.78" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="122"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="29310">
+        <param type="endTime" value="29740"/>
+        <param type="compDepth" value="41.11" units="mm"/>
+        <param type="compPeakTime" value="29510" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.11" units="mm"/>
+        <param type="compLeaningDepth" value="4.78" units="mm"/>
+        <param type="compReleaseDepth" value="4.48" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="121"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="29800">
+        <param type="endTime" value="30220"/>
+        <param type="compDepth" value="41.35" units="mm"/>
+        <param type="compPeakTime" value="29990" units="ms"/>
+        <param type="compInstantaneousPeriod" value="480" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.35" units="mm"/>
+        <param type="compLeaningDepth" value="4.48" units="mm"/>
+        <param type="compReleaseDepth" value="4.48" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="120"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="30300">
+        <param type="endTime" value="30760"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="30510" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="4.48" units="mm"/>
+        <param type="compReleaseDepth" value="3.88" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="119"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="30810">
+        <param type="endTime" value="31300"/>
+        <param type="compDepth" value="40.62" units="mm"/>
+        <param type="compPeakTime" value="31030" units="ms"/>
+        <param type="compInstantaneousPeriod" value="530" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.62" units="mm"/>
+        <param type="compLeaningDepth" value="3.88" units="mm"/>
+        <param type="compReleaseDepth" value="2.99" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="118"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="31310">
+        <param type="endTime" value="31800"/>
+        <param type="compDepth" value="40.62" units="mm"/>
+        <param type="compPeakTime" value="31530" units="ms"/>
+        <param type="compInstantaneousPeriod" value="490" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.62" units="mm"/>
+        <param type="compLeaningDepth" value="2.99" units="mm"/>
+        <param type="compReleaseDepth" value="2.99" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="118"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="31830">
+        <param type="endTime" value="32290"/>
+        <param type="compDepth" value="40.62" units="mm"/>
+        <param type="compPeakTime" value="32050" units="ms"/>
+        <param type="compInstantaneousPeriod" value="520" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.62" units="mm"/>
+        <param type="compLeaningDepth" value="2.99" units="mm"/>
+        <param type="compReleaseDepth" value="4.48" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="116"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="32360">
+        <param type="endTime" value="32830"/>
+        <param type="compDepth" value="40.86" units="mm"/>
+        <param type="compPeakTime" value="32580" units="ms"/>
+        <param type="compInstantaneousPeriod" value="540" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.86" units="mm"/>
+        <param type="compLeaningDepth" value="4.48" units="mm"/>
+        <param type="compReleaseDepth" value="3.58" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="117"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="32890">
+        <param type="endTime" value="33370"/>
+        <param type="compDepth" value="40.62" units="mm"/>
+        <param type="compPeakTime" value="33120" units="ms"/>
+        <param type="compInstantaneousPeriod" value="540" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.62" units="mm"/>
+        <param type="compLeaningDepth" value="3.58" units="mm"/>
+        <param type="compReleaseDepth" value="3.88" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="111"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="33420">
+        <param type="endTime" value="33890"/>
+        <param type="compDepth" value="39.39" units="mm"/>
+        <param type="compPeakTime" value="33650" units="ms"/>
+        <param type="compInstantaneousPeriod" value="520" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="39.39" units="mm"/>
+        <param type="compLeaningDepth" value="3.88" units="mm"/>
+        <param type="compReleaseDepth" value="3.58" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="114"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="33940">
+        <param type="endTime" value="34450"/>
+        <param type="compDepth" value="40.12" units="mm"/>
+        <param type="compPeakTime" value="34150" units="ms"/>
+        <param type="compInstantaneousPeriod" value="500" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.12" units="mm"/>
+        <param type="compLeaningDepth" value="3.58" units="mm"/>
+        <param type="compReleaseDepth" value="4.48" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="115"/>
+    </evt>
+    <evt type="CprVentEvent" msecs="34890">
+        <param type="endTime" value="35480"/>
+        <param type="ventVolume" value="37" units="ml"/>
+        <param type="ventRate" value="23" units="vpm"/>
+        <param type="ventInstantaneousPeriod" value="9670" units="ms"/>
+        <param type="ventPeakTime" value="35480" units="ms"/>
+        <param type="ventDuringCompression" value="0"/>
+    </evt>
+    <evt type="CprVentEvent" msecs="36440">
+        <param type="endTime" value="37060"/>
+        <param type="ventVolume" value="32" units="ml"/>
+        <param type="ventRate" value="22" units="vpm"/>
+        <param type="ventInstantaneousPeriod" value="1570" units="ms"/>
+        <param type="ventPeakTime" value="37060" units="ms"/>
+        <param type="ventDuringCompression" value="0"/>
+    </evt>
+    <evt type="CprInactivityCPR" msecs="34300">
+        <param type="compInactivity" value="3" units="sec"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="37720">
+        <param type="endTime" value="38230"/>
+        <param type="compDepth" value="40.62" units="mm"/>
+        <param type="compPeakTime" value="37970" units="ms"/>
+        <param type="compInstantaneousPeriod" value="3830" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.62" units="mm"/>
+        <param type="compLeaningDepth" value="4.48" units="mm"/>
+        <param type="compReleaseDepth" value="3.88" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="119"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="38290">
+        <param type="endTime" value="38730"/>
+        <param type="compDepth" value="41.11" units="mm"/>
+        <param type="compPeakTime" value="38490" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.11" units="mm"/>
+        <param type="compLeaningDepth" value="3.88" units="mm"/>
+        <param type="compReleaseDepth" value="4.48" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="119"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="38780">
+        <param type="endTime" value="39210"/>
+        <param type="compDepth" value="40.86" units="mm"/>
+        <param type="compPeakTime" value="38950" units="ms"/>
+        <param type="compInstantaneousPeriod" value="470" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.86" units="mm"/>
+        <param type="compLeaningDepth" value="4.48" units="mm"/>
+        <param type="compReleaseDepth" value="4.18" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="122"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="39260">
+        <param type="endTime" value="39700"/>
+        <param type="compDepth" value="40.62" units="mm"/>
+        <param type="compPeakTime" value="39460" units="ms"/>
+        <param type="compInstantaneousPeriod" value="500" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.62" units="mm"/>
+        <param type="compLeaningDepth" value="4.18" units="mm"/>
+        <param type="compReleaseDepth" value="4.48" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="123"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="39800">
+        <param type="endTime" value="40250"/>
+        <param type="compDepth" value="40.86" units="mm"/>
+        <param type="compPeakTime" value="39980" units="ms"/>
+        <param type="compInstantaneousPeriod" value="530" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.86" units="mm"/>
+        <param type="compLeaningDepth" value="4.48" units="mm"/>
+        <param type="compReleaseDepth" value="4.78" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="121"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="40300">
+        <param type="endTime" value="40740"/>
+        <param type="compDepth" value="39.63" units="mm"/>
+        <param type="compPeakTime" value="40490" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="39.63" units="mm"/>
+        <param type="compLeaningDepth" value="4.78" units="mm"/>
+        <param type="compReleaseDepth" value="3.58" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="116"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="40800">
+        <param type="endTime" value="41260"/>
+        <param type="compDepth" value="40.86" units="mm"/>
+        <param type="compPeakTime" value="41010" units="ms"/>
+        <param type="compInstantaneousPeriod" value="520" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.86" units="mm"/>
+        <param type="compLeaningDepth" value="3.58" units="mm"/>
+        <param type="compReleaseDepth" value="4.18" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="114"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="41320">
+        <param type="endTime" value="41820"/>
+        <param type="compDepth" value="40.62" units="mm"/>
+        <param type="compPeakTime" value="41540" units="ms"/>
+        <param type="compInstantaneousPeriod" value="520" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.62" units="mm"/>
+        <param type="compLeaningDepth" value="4.18" units="mm"/>
+        <param type="compReleaseDepth" value="3.88" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="114"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="41840">
+        <param type="endTime" value="42300"/>
+        <param type="compDepth" value="41.35" units="mm"/>
+        <param type="compPeakTime" value="42060" units="ms"/>
+        <param type="compInstantaneousPeriod" value="530" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.35" units="mm"/>
+        <param type="compLeaningDepth" value="3.88" units="mm"/>
+        <param type="compReleaseDepth" value="4.48" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="114"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="42380">
+        <param type="endTime" value="42820"/>
+        <param type="compDepth" value="41.35" units="mm"/>
+        <param type="compPeakTime" value="42580" units="ms"/>
+        <param type="compInstantaneousPeriod" value="520" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.35" units="mm"/>
+        <param type="compLeaningDepth" value="4.48" units="mm"/>
+        <param type="compReleaseDepth" value="4.48" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="114"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="42890">
+        <param type="endTime" value="43350"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="43080" units="ms"/>
+        <param type="compInstantaneousPeriod" value="490" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="4.48" units="mm"/>
+        <param type="compReleaseDepth" value="3.28" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="116"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="43380">
+        <param type="endTime" value="43850"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="43590" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="3.28" units="mm"/>
+        <param type="compReleaseDepth" value="3.28" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="118"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="43890">
+        <param type="endTime" value="44370"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="44120" units="ms"/>
+        <param type="compInstantaneousPeriod" value="530" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="3.28" units="mm"/>
+        <param type="compReleaseDepth" value="4.48" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="117"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="44410">
+        <param type="endTime" value="44910"/>
+        <param type="compDepth" value="41.11" units="mm"/>
+        <param type="compPeakTime" value="44630" units="ms"/>
+        <param type="compInstantaneousPeriod" value="520" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.11" units="mm"/>
+        <param type="compLeaningDepth" value="4.48" units="mm"/>
+        <param type="compReleaseDepth" value="2.99" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="116"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="44930">
+        <param type="endTime" value="45550"/>
+        <param type="compDepth" value="41.85" units="mm"/>
+        <param type="compPeakTime" value="45150" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.85" units="mm"/>
+        <param type="compLeaningDepth" value="2.99" units="mm"/>
+        <param type="compReleaseDepth" value="4.78" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="116"/>
+    </evt>
+    <evt type="CprVentEvent" msecs="46120">
+        <param type="endTime" value="46640"/>
+        <param type="ventVolume" value="31" units="ml"/>
+        <param type="ventRate" value="22" units="vpm"/>
+        <param type="ventInstantaneousPeriod" value="9590" units="ms"/>
+        <param type="ventPeakTime" value="46640" units="ms"/>
+        <param type="ventDuringCompression" value="0"/>
+    </evt>
+    <evt type="CprVentEvent" msecs="47550">
+        <param type="endTime" value="47960"/>
+        <param type="ventVolume" value="24" units="ml"/>
+        <param type="ventRate" value="25" units="vpm"/>
+        <param type="ventInstantaneousPeriod" value="1320" units="ms"/>
+        <param type="ventPeakTime" value="47960" units="ms"/>
+        <param type="ventDuringCompression" value="0"/>
+    </evt>
+    <evt type="CprInactivityCPR" msecs="45320">
+        <param type="compInactivity" value="3" units="sec"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="48810">
+        <param type="endTime" value="49360"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="49070" units="ms"/>
+        <param type="compInstantaneousPeriod" value="3930" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="4.78" units="mm"/>
+        <param type="compReleaseDepth" value="2.39" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="117"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="49380">
+        <param type="endTime" value="49850"/>
+        <param type="compDepth" value="41.11" units="mm"/>
+        <param type="compPeakTime" value="49570" units="ms"/>
+        <param type="compInstantaneousPeriod" value="500" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.11" units="mm"/>
+        <param type="compLeaningDepth" value="2.39" units="mm"/>
+        <param type="compReleaseDepth" value="2.39" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="119"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="49870">
+        <param type="endTime" value="50350"/>
+        <param type="compDepth" value="41.85" units="mm"/>
+        <param type="compPeakTime" value="50080" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.85" units="mm"/>
+        <param type="compLeaningDepth" value="2.39" units="mm"/>
+        <param type="compReleaseDepth" value="4.18" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="120"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="50370">
+        <param type="endTime" value="50830"/>
+        <param type="compDepth" value="40.62" units="mm"/>
+        <param type="compPeakTime" value="50580" units="ms"/>
+        <param type="compInstantaneousPeriod" value="500" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.62" units="mm"/>
+        <param type="compLeaningDepth" value="4.18" units="mm"/>
+        <param type="compReleaseDepth" value="4.78" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="119"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="50880">
+        <param type="endTime" value="51330"/>
+        <param type="compDepth" value="41.11" units="mm"/>
+        <param type="compPeakTime" value="51080" units="ms"/>
+        <param type="compInstantaneousPeriod" value="490" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.11" units="mm"/>
+        <param type="compLeaningDepth" value="4.78" units="mm"/>
+        <param type="compReleaseDepth" value="4.78" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="121"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="51370">
+        <param type="endTime" value="51810"/>
+        <param type="compDepth" value="41.11" units="mm"/>
+        <param type="compPeakTime" value="51570" units="ms"/>
+        <param type="compInstantaneousPeriod" value="490" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.11" units="mm"/>
+        <param type="compLeaningDepth" value="4.78" units="mm"/>
+        <param type="compReleaseDepth" value="5.56" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="1"/>
+        <param type="compMeanRate" value="122"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="51890">
+        <param type="endTime" value="52370"/>
+        <param type="compDepth" value="40.86" units="mm"/>
+        <param type="compPeakTime" value="52090" units="ms"/>
+        <param type="compInstantaneousPeriod" value="520" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.86" units="mm"/>
+        <param type="compLeaningDepth" value="5.56" units="mm"/>
+        <param type="compReleaseDepth" value="3.58" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="121"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="52400">
+        <param type="endTime" value="52880"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="52610" units="ms"/>
+        <param type="compInstantaneousPeriod" value="520" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="3.58" units="mm"/>
+        <param type="compReleaseDepth" value="3.58" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="117"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="52910">
+        <param type="endTime" value="53360"/>
+        <param type="compDepth" value="41.35" units="mm"/>
+        <param type="compPeakTime" value="53120" units="ms"/>
+        <param type="compInstantaneousPeriod" value="520" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.35" units="mm"/>
+        <param type="compLeaningDepth" value="3.58" units="mm"/>
+        <param type="compReleaseDepth" value="4.48" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="115"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="53420">
+        <param type="endTime" value="53880"/>
+        <param type="compDepth" value="40.86" units="mm"/>
+        <param type="compPeakTime" value="53620" units="ms"/>
+        <param type="compInstantaneousPeriod" value="500" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.86" units="mm"/>
+        <param type="compLeaningDepth" value="4.48" units="mm"/>
+        <param type="compReleaseDepth" value="4.78" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="117"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="53920">
+        <param type="endTime" value="54410"/>
+        <param type="compDepth" value="41.11" units="mm"/>
+        <param type="compPeakTime" value="54130" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.11" units="mm"/>
+        <param type="compLeaningDepth" value="4.78" units="mm"/>
+        <param type="compReleaseDepth" value="4.48" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="116"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="54450">
+        <param type="endTime" value="54950"/>
+        <param type="compDepth" value="41.35" units="mm"/>
+        <param type="compPeakTime" value="54670" units="ms"/>
+        <param type="compInstantaneousPeriod" value="540" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.35" units="mm"/>
+        <param type="compLeaningDepth" value="4.48" units="mm"/>
+        <param type="compReleaseDepth" value="3.28" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="115"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="54980">
+        <param type="endTime" value="55430"/>
+        <param type="compDepth" value="41.11" units="mm"/>
+        <param type="compPeakTime" value="55180" units="ms"/>
+        <param type="compInstantaneousPeriod" value="500" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.11" units="mm"/>
+        <param type="compLeaningDepth" value="3.28" units="mm"/>
+        <param type="compReleaseDepth" value="4.78" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="115"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="55500">
+        <param type="endTime" value="55970"/>
+        <param type="compDepth" value="40.62" units="mm"/>
+        <param type="compPeakTime" value="55730" units="ms"/>
+        <param type="compInstantaneousPeriod" value="550" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.62" units="mm"/>
+        <param type="compLeaningDepth" value="4.78" units="mm"/>
+        <param type="compReleaseDepth" value="4.18" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="112"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="56010">
+        <param type="endTime" value="56840"/>
+        <param type="compDepth" value="41.11" units="mm"/>
+        <param type="compPeakTime" value="56210" units="ms"/>
+        <param type="compInstantaneousPeriod" value="480" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.11" units="mm"/>
+        <param type="compLeaningDepth" value="4.18" units="mm"/>
+        <param type="compReleaseDepth" value="3.88" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="119"/>
+    </evt>
+    <evt type="CprVentEvent" msecs="57060">
+        <param type="endTime" value="57680"/>
+        <param type="ventVolume" value="29" units="ml"/>
+        <param type="ventRate" value="25" units="vpm"/>
+        <param type="ventInstantaneousPeriod" value="9710" units="ms"/>
+        <param type="ventPeakTime" value="57680" units="ms"/>
+        <param type="ventDuringCompression" value="0"/>
+    </evt>
+    <evt type="CprVentEvent" msecs="58630">
+        <param type="endTime" value="59200"/>
+        <param type="ventVolume" value="29" units="ml"/>
+        <param type="ventRate" value="22" units="vpm"/>
+        <param type="ventInstantaneousPeriod" value="1520" units="ms"/>
+        <param type="ventPeakTime" value="59200" units="ms"/>
+        <param type="ventDuringCompression" value="0"/>
+    </evt>
+    <evt type="CprInactivityCPR" msecs="56360">
+        <param type="compInactivity" value="3" units="sec"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="60110">
+        <param type="endTime" value="60820"/>
+        <param type="compDepth" value="42.58" units="mm"/>
+        <param type="compPeakTime" value="60490" units="ms"/>
+        <param type="compInstantaneousPeriod" value="4280" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.58" units="mm"/>
+        <param type="compLeaningDepth" value="3.88" units="mm"/>
+        <param type="compReleaseDepth" value="3.28" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="118"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="60840">
+        <param type="endTime" value="61320"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="61080" units="ms"/>
+        <param type="compInstantaneousPeriod" value="590" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="3.28" units="mm"/>
+        <param type="compReleaseDepth" value="4.48" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="114"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="61370">
+        <param type="endTime" value="61800"/>
+        <param type="compDepth" value="41.35" units="mm"/>
+        <param type="compPeakTime" value="61560" units="ms"/>
+        <param type="compInstantaneousPeriod" value="490" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.35" units="mm"/>
+        <param type="compLeaningDepth" value="4.48" units="mm"/>
+        <param type="compReleaseDepth" value="4.48" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="120"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="61880">
+        <param type="endTime" value="62310"/>
+        <param type="compDepth" value="40.62" units="mm"/>
+        <param type="compPeakTime" value="62070" units="ms"/>
+        <param type="compInstantaneousPeriod" value="500" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.62" units="mm"/>
+        <param type="compLeaningDepth" value="4.48" units="mm"/>
+        <param type="compReleaseDepth" value="4.48" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="116"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="62360">
+        <param type="endTime" value="62830"/>
+        <param type="compDepth" value="41.35" units="mm"/>
+        <param type="compPeakTime" value="62570" units="ms"/>
+        <param type="compInstantaneousPeriod" value="500" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.35" units="mm"/>
+        <param type="compLeaningDepth" value="4.48" units="mm"/>
+        <param type="compReleaseDepth" value="4.18" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="121"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="62870">
+        <param type="endTime" value="63360"/>
+        <param type="compDepth" value="40.86" units="mm"/>
+        <param type="compPeakTime" value="63080" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.86" units="mm"/>
+        <param type="compLeaningDepth" value="4.18" units="mm"/>
+        <param type="compReleaseDepth" value="3.58" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="119"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="63380">
+        <param type="endTime" value="63850"/>
+        <param type="compDepth" value="40.86" units="mm"/>
+        <param type="compPeakTime" value="63580" units="ms"/>
+        <param type="compInstantaneousPeriod" value="500" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.86" units="mm"/>
+        <param type="compLeaningDepth" value="3.58" units="mm"/>
+        <param type="compReleaseDepth" value="4.18" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="120"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="63880">
+        <param type="endTime" value="64360"/>
+        <param type="compDepth" value="41.11" units="mm"/>
+        <param type="compPeakTime" value="64100" units="ms"/>
+        <param type="compInstantaneousPeriod" value="520" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.11" units="mm"/>
+        <param type="compLeaningDepth" value="4.18" units="mm"/>
+        <param type="compReleaseDepth" value="2.99" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="117"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="64370">
+        <param type="endTime" value="64840"/>
+        <param type="compDepth" value="40.62" units="mm"/>
+        <param type="compPeakTime" value="64600" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.62" units="mm"/>
+        <param type="compLeaningDepth" value="2.99" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="116"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="64900">
+        <param type="endTime" value="65380"/>
+        <param type="compDepth" value="40.86" units="mm"/>
+        <param type="compPeakTime" value="65120" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.86" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="1.79" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="117"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="65410">
+        <param type="endTime" value="65890"/>
+        <param type="compDepth" value="40.86" units="mm"/>
+        <param type="compPeakTime" value="65620" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.86" units="mm"/>
+        <param type="compLeaningDepth" value="1.79" units="mm"/>
+        <param type="compReleaseDepth" value="1.49" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="118"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="65930">
+        <param type="endTime" value="66400"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="66160" units="ms"/>
+        <param type="compInstantaneousPeriod" value="530" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="1.49" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="116"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="66450">
+        <param type="endTime" value="66890"/>
+        <param type="compDepth" value="40.62" units="mm"/>
+        <param type="compPeakTime" value="66650" units="ms"/>
+        <param type="compInstantaneousPeriod" value="500" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="40.62" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="0.9" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="115"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="66970">
+        <param type="endTime" value="67430"/>
+        <param type="compDepth" value="39.63" units="mm"/>
+        <param type="compPeakTime" value="67180" units="ms"/>
+        <param type="compInstantaneousPeriod" value="530" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="39.63" units="mm"/>
+        <param type="compLeaningDepth" value="0.9" units="mm"/>
+        <param type="compReleaseDepth" value="1.79" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="114"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="67500">
+        <param type="endTime" value="68020"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="67740" units="ms"/>
+        <param type="compInstantaneousPeriod" value="550" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="1.79" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="114"/>
+    </evt>
+    <evt type="CprVentEvent" msecs="68660">
+        <param type="endTime" value="69260"/>
+        <param type="ventVolume" value="26" units="ml"/>
+        <param type="ventRate" value="22" units="vpm"/>
+        <param type="ventInstantaneousPeriod" value="10070" units="ms"/>
+        <param type="ventPeakTime" value="69260" units="ms"/>
+        <param type="ventDuringCompression" value="0"/>
+    </evt>
+    <evt type="CprVentEvent" msecs="70490">
+        <param type="endTime" value="70920"/>
+        <param type="ventVolume" value="17" units="ml"/>
+        <param type="ventRate" value="21" units="vpm"/>
+        <param type="ventInstantaneousPeriod" value="1650" units="ms"/>
+        <param type="ventPeakTime" value="70920" units="ms"/>
+        <param type="ventDuringCompression" value="0"/>
+    </evt>
+    <evt type="CprInactivityCPR" msecs="67920">
+        <param type="compInactivity" value="4" units="sec"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="72130">
+        <param type="endTime" value="72690"/>
+        <param type="compDepth" value="42.58" units="mm"/>
+        <param type="compPeakTime" value="72420" units="ms"/>
+        <param type="compInstantaneousPeriod" value="4690" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.58" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="1.49" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="112"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="72720">
+        <param type="endTime" value="73230"/>
+        <param type="compDepth" value="42.58" units="mm"/>
+        <param type="compPeakTime" value="72950" units="ms"/>
+        <param type="compInstantaneousPeriod" value="530" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.58" units="mm"/>
+        <param type="compLeaningDepth" value="1.49" units="mm"/>
+        <param type="compReleaseDepth" value="0.9" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="114"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="73270">
+        <param type="endTime" value="73730"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="73470" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="0.9" units="mm"/>
+        <param type="compReleaseDepth" value="1.79" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="114"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="73750">
+        <param type="endTime" value="74210"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="73950" units="ms"/>
+        <param type="compInstantaneousPeriod" value="490" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="1.79" units="mm"/>
+        <param type="compReleaseDepth" value="2.69" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="119"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="74240">
+        <param type="endTime" value="74730"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="74460" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="2.69" units="mm"/>
+        <param type="compReleaseDepth" value="1.49" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="119"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="74770">
+        <param type="endTime" value="75290"/>
+        <param type="compDepth" value="42.58" units="mm"/>
+        <param type="compPeakTime" value="75020" units="ms"/>
+        <param type="compInstantaneousPeriod" value="560" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.58" units="mm"/>
+        <param type="compLeaningDepth" value="1.49" units="mm"/>
+        <param type="compReleaseDepth" value="2.39" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="116"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="75310">
+        <param type="endTime" value="75790"/>
+        <param type="compDepth" value="41.35" units="mm"/>
+        <param type="compPeakTime" value="75540" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.35" units="mm"/>
+        <param type="compLeaningDepth" value="2.39" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="114"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="75830">
+        <param type="endTime" value="76300"/>
+        <param type="compDepth" value="41.85" units="mm"/>
+        <param type="compPeakTime" value="76040" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.85" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="2.39" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="115"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="76330">
+        <param type="endTime" value="76830"/>
+        <param type="compDepth" value="41.85" units="mm"/>
+        <param type="compPeakTime" value="76550" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.85" units="mm"/>
+        <param type="compLeaningDepth" value="2.39" units="mm"/>
+        <param type="compReleaseDepth" value="2.69" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="117"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="76850">
+        <param type="endTime" value="77350"/>
+        <param type="compDepth" value="42.09" units="mm"/>
+        <param type="compPeakTime" value="77070" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.09" units="mm"/>
+        <param type="compLeaningDepth" value="2.69" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="118"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="77360">
+        <param type="endTime" value="77840"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="77590" units="ms"/>
+        <param type="compInstantaneousPeriod" value="530" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="115"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="77900">
+        <param type="endTime" value="78390"/>
+        <param type="compDepth" value="42.34" units="mm"/>
+        <param type="compPeakTime" value="78120" units="ms"/>
+        <param type="compInstantaneousPeriod" value="520" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.34" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="2.39" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="115"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="78400">
+        <param type="endTime" value="78890"/>
+        <param type="compDepth" value="42.09" units="mm"/>
+        <param type="compPeakTime" value="78620" units="ms"/>
+        <param type="compInstantaneousPeriod" value="500" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.09" units="mm"/>
+        <param type="compLeaningDepth" value="2.39" units="mm"/>
+        <param type="compReleaseDepth" value="2.69" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="116"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="78910">
+        <param type="endTime" value="79400"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="79150" units="ms"/>
+        <param type="compInstantaneousPeriod" value="540" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="2.69" units="mm"/>
+        <param type="compReleaseDepth" value="0.9" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="115"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="79440">
+        <param type="endTime" value="79940"/>
+        <param type="compDepth" value="42.34" units="mm"/>
+        <param type="compPeakTime" value="79660" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.34" units="mm"/>
+        <param type="compLeaningDepth" value="0.9" units="mm"/>
+        <param type="compReleaseDepth" value="1.19" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="116"/>
+    </evt>
+    <evt type="CprVentEvent" msecs="80780">
+        <param type="endTime" value="81380"/>
+        <param type="ventVolume" value="40" units="ml"/>
+        <param type="ventRate" value="21" units="vpm"/>
+        <param type="ventInstantaneousPeriod" value="10460" units="ms"/>
+        <param type="ventPeakTime" value="81380" units="ms"/>
+        <param type="ventDuringCompression" value="0"/>
+    </evt>
+    <evt type="CprInactivityCPR" msecs="79860">
+        <param type="compInactivity" value="3" units="sec"/>
+    </evt>
+    <evt type="CprVentEvent" msecs="82330">
+        <param type="endTime" value="82860"/>
+        <param type="ventVolume" value="28" units="ml"/>
+        <param type="ventRate" value="23" units="vpm"/>
+        <param type="ventInstantaneousPeriod" value="1490" units="ms"/>
+        <param type="ventPeakTime" value="82860" units="ms"/>
+        <param type="ventDuringCompression" value="0"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="83420">
+        <param type="endTime" value="83960"/>
+        <param type="compDepth" value="42.09" units="mm"/>
+        <param type="compPeakTime" value="83680" units="ms"/>
+        <param type="compInstantaneousPeriod" value="4020" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.09" units="mm"/>
+        <param type="compLeaningDepth" value="1.19" units="mm"/>
+        <param type="compReleaseDepth" value="2.39" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="113"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="83970">
+        <param type="endTime" value="84420"/>
+        <param type="compDepth" value="42.09" units="mm"/>
+        <param type="compPeakTime" value="84170" units="ms"/>
+        <param type="compInstantaneousPeriod" value="490" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.09" units="mm"/>
+        <param type="compLeaningDepth" value="2.39" units="mm"/>
+        <param type="compReleaseDepth" value="2.99" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="117"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="84460">
+        <param type="endTime" value="84890"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="84660" units="ms"/>
+        <param type="compInstantaneousPeriod" value="490" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="2.99" units="mm"/>
+        <param type="compReleaseDepth" value="4.48" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="121"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="84970">
+        <param type="endTime" value="85450"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="85160" units="ms"/>
+        <param type="compInstantaneousPeriod" value="490" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="4.48" units="mm"/>
+        <param type="compReleaseDepth" value="2.99" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="123"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="85470">
+        <param type="endTime" value="85940"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="85670" units="ms"/>
+        <param type="compInstantaneousPeriod" value="520" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="2.99" units="mm"/>
+        <param type="compReleaseDepth" value="3.28" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="119"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="85990">
+        <param type="endTime" value="86430"/>
+        <param type="compDepth" value="41.35" units="mm"/>
+        <param type="compPeakTime" value="86180" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.35" units="mm"/>
+        <param type="compLeaningDepth" value="3.28" units="mm"/>
+        <param type="compReleaseDepth" value="3.28" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="119"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="86490">
+        <param type="endTime" value="86960"/>
+        <param type="compDepth" value="41.85" units="mm"/>
+        <param type="compPeakTime" value="86690" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.85" units="mm"/>
+        <param type="compLeaningDepth" value="3.28" units="mm"/>
+        <param type="compReleaseDepth" value="2.39" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="117"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="86990">
+        <param type="endTime" value="87470"/>
+        <param type="compDepth" value="42.34" units="mm"/>
+        <param type="compPeakTime" value="87210" units="ms"/>
+        <param type="compInstantaneousPeriod" value="520" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.34" units="mm"/>
+        <param type="compLeaningDepth" value="2.39" units="mm"/>
+        <param type="compReleaseDepth" value="1.49" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="117"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="87490">
+        <param type="endTime" value="87990"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="87710" units="ms"/>
+        <param type="compInstantaneousPeriod" value="500" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="1.49" units="mm"/>
+        <param type="compReleaseDepth" value="1.49" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="116"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="88020">
+        <param type="endTime" value="88510"/>
+        <param type="compDepth" value="41.85" units="mm"/>
+        <param type="compPeakTime" value="88240" units="ms"/>
+        <param type="compInstantaneousPeriod" value="530" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.85" units="mm"/>
+        <param type="compLeaningDepth" value="1.49" units="mm"/>
+        <param type="compReleaseDepth" value="1.79" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="115"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="88550">
+        <param type="endTime" value="89030"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="88780" units="ms"/>
+        <param type="compInstantaneousPeriod" value="530" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="1.79" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="114"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="89080">
+        <param type="endTime" value="89530"/>
+        <param type="compDepth" value="41.85" units="mm"/>
+        <param type="compPeakTime" value="89280" units="ms"/>
+        <param type="compInstantaneousPeriod" value="500" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.85" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="116"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="89560">
+        <param type="endTime" value="90030"/>
+        <param type="compDepth" value="41.85" units="mm"/>
+        <param type="compPeakTime" value="89770" units="ms"/>
+        <param type="compInstantaneousPeriod" value="500" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.85" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="1.79" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="117"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="90060">
+        <param type="endTime" value="90540"/>
+        <param type="compDepth" value="41.85" units="mm"/>
+        <param type="compPeakTime" value="90280" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.85" units="mm"/>
+        <param type="compLeaningDepth" value="1.79" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="120"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="90600">
+        <param type="endTime" value="91170"/>
+        <param type="compDepth" value="42.58" units="mm"/>
+        <param type="compPeakTime" value="90810" units="ms"/>
+        <param type="compInstantaneousPeriod" value="520" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.58" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="2.69" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="116"/>
+    </evt>
+    <evt type="CprVentEvent" msecs="91610">
+        <param type="endTime" value="92220"/>
+        <param type="ventVolume" value="37" units="ml"/>
+        <param type="ventRate" value="23" units="vpm"/>
+        <param type="ventInstantaneousPeriod" value="9360" units="ms"/>
+        <param type="ventPeakTime" value="92220" units="ms"/>
+        <param type="ventDuringCompression" value="0"/>
+    </evt>
+    <evt type="CprVentEvent" msecs="93050">
+        <param type="endTime" value="93620"/>
+        <param type="ventVolume" value="29" units="ml"/>
+        <param type="ventRate" value="24" units="vpm"/>
+        <param type="ventInstantaneousPeriod" value="1400" units="ms"/>
+        <param type="ventPeakTime" value="93620" units="ms"/>
+        <param type="ventDuringCompression" value="0"/>
+    </evt>
+    <evt type="CprInactivityCPR" msecs="91000">
+        <param type="compInactivity" value="3" units="sec"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="94270">
+        <param type="endTime" value="94810"/>
+        <param type="compDepth" value="42.58" units="mm"/>
+        <param type="compPeakTime" value="94530" units="ms"/>
+        <param type="compInstantaneousPeriod" value="3720" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.58" units="mm"/>
+        <param type="compLeaningDepth" value="2.69" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="114"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="94840">
+        <param type="endTime" value="95280"/>
+        <param type="compDepth" value="42.34" units="mm"/>
+        <param type="compPeakTime" value="95040" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.34" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="117"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="95330">
+        <param type="endTime" value="95760"/>
+        <param type="compDepth" value="42.34" units="mm"/>
+        <param type="compPeakTime" value="95520" units="ms"/>
+        <param type="compInstantaneousPeriod" value="480" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.34" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="119"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="95810">
+        <param type="endTime" value="96260"/>
+        <param type="compDepth" value="41.85" units="mm"/>
+        <param type="compPeakTime" value="96000" units="ms"/>
+        <param type="compInstantaneousPeriod" value="480" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.85" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="124"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="96270">
+        <param type="endTime" value="96720"/>
+        <param type="compDepth" value="41.11" units="mm"/>
+        <param type="compPeakTime" value="96480" units="ms"/>
+        <param type="compInstantaneousPeriod" value="480" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.11" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="125"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="96770">
+        <param type="endTime" value="97220"/>
+        <param type="compDepth" value="42.09" units="mm"/>
+        <param type="compPeakTime" value="96970" units="ms"/>
+        <param type="compInstantaneousPeriod" value="500" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.09" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="122"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="97270">
+        <param type="endTime" value="97740"/>
+        <param type="compDepth" value="41.85" units="mm"/>
+        <param type="compPeakTime" value="97460" units="ms"/>
+        <param type="compInstantaneousPeriod" value="490" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.85" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="1.49" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="122"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="97760">
+        <param type="endTime" value="98250"/>
+        <param type="compDepth" value="42.58" units="mm"/>
+        <param type="compPeakTime" value="97980" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.58" units="mm"/>
+        <param type="compLeaningDepth" value="1.49" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="120"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="98300">
+        <param type="endTime" value="98760"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="98510" units="ms"/>
+        <param type="compInstantaneousPeriod" value="540" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="0.9" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="117"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="98830">
+        <param type="endTime" value="99310"/>
+        <param type="compDepth" value="42.34" units="mm"/>
+        <param type="compPeakTime" value="99030" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.34" units="mm"/>
+        <param type="compLeaningDepth" value="0.9" units="mm"/>
+        <param type="compReleaseDepth" value="1.19" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="115"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="99340">
+        <param type="endTime" value="99820"/>
+        <param type="compDepth" value="42.34" units="mm"/>
+        <param type="compPeakTime" value="99540" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.34" units="mm"/>
+        <param type="compLeaningDepth" value="1.19" units="mm"/>
+        <param type="compReleaseDepth" value="1.19" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="114"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="99850">
+        <param type="endTime" value="100330"/>
+        <param type="compDepth" value="42.34" units="mm"/>
+        <param type="compPeakTime" value="100060" units="ms"/>
+        <param type="compInstantaneousPeriod" value="530" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.34" units="mm"/>
+        <param type="compLeaningDepth" value="1.19" units="mm"/>
+        <param type="compReleaseDepth" value="1.49" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="116"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="100370">
+        <param type="endTime" value="100850"/>
+        <param type="compDepth" value="41.85" units="mm"/>
+        <param type="compPeakTime" value="100580" units="ms"/>
+        <param type="compInstantaneousPeriod" value="520" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.85" units="mm"/>
+        <param type="compLeaningDepth" value="1.49" units="mm"/>
+        <param type="compReleaseDepth" value="1.49" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="115"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="100890">
+        <param type="endTime" value="101370"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="101080" units="ms"/>
+        <param type="compInstantaneousPeriod" value="500" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="1.49" units="mm"/>
+        <param type="compReleaseDepth" value="1.19" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="115"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="101390">
+        <param type="endTime" value="101930"/>
+        <param type="compDepth" value="42.58" units="mm"/>
+        <param type="compPeakTime" value="101590" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.58" units="mm"/>
+        <param type="compLeaningDepth" value="1.19" units="mm"/>
+        <param type="compReleaseDepth" value="1.19" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="116"/>
+    </evt>
+    <evt type="CprVentEvent" msecs="102450">
+        <param type="endTime" value="103040"/>
+        <param type="ventVolume" value="37" units="ml"/>
+        <param type="ventRate" value="24" units="vpm"/>
+        <param type="ventInstantaneousPeriod" value="9410" units="ms"/>
+        <param type="ventPeakTime" value="103040" units="ms"/>
+        <param type="ventDuringCompression" value="0"/>
+    </evt>
+    <evt type="CprVentEvent" msecs="103890">
+        <param type="endTime" value="104480"/>
+        <param type="ventVolume" value="32" units="ml"/>
+        <param type="ventRate" value="24" units="vpm"/>
+        <param type="ventInstantaneousPeriod" value="1440" units="ms"/>
+        <param type="ventPeakTime" value="104480" units="ms"/>
+        <param type="ventDuringCompression" value="0"/>
+    </evt>
+    <evt type="CprInactivityCPR" msecs="101780">
+        <param type="compInactivity" value="3" units="sec"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="105050">
+        <param type="endTime" value="105580"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="105310" units="ms"/>
+        <param type="compInstantaneousPeriod" value="3710" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="1.19" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="118"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="105600">
+        <param type="endTime" value="106060"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="105800" units="ms"/>
+        <param type="compInstantaneousPeriod" value="500" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="2.69" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="118"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="106100">
+        <param type="endTime" value="106560"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="106290" units="ms"/>
+        <param type="compInstantaneousPeriod" value="480" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="2.69" units="mm"/>
+        <param type="compReleaseDepth" value="2.69" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="121"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="106590">
+        <param type="endTime" value="107040"/>
+        <param type="compDepth" value="41.35" units="mm"/>
+        <param type="compPeakTime" value="106790" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.35" units="mm"/>
+        <param type="compLeaningDepth" value="2.69" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="121"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="107100">
+        <param type="endTime" value="107540"/>
+        <param type="compDepth" value="42.34" units="mm"/>
+        <param type="compPeakTime" value="107270" units="ms"/>
+        <param type="compInstantaneousPeriod" value="480" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.34" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="1.19" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="122"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="107560">
+        <param type="endTime" value="108000"/>
+        <param type="compDepth" value="41.35" units="mm"/>
+        <param type="compPeakTime" value="107760" units="ms"/>
+        <param type="compInstantaneousPeriod" value="480" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.35" units="mm"/>
+        <param type="compLeaningDepth" value="1.19" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="122"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="108070">
+        <param type="endTime" value="108570"/>
+        <param type="compDepth" value="42.58" units="mm"/>
+        <param type="compPeakTime" value="108290" units="ms"/>
+        <param type="compInstantaneousPeriod" value="540" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.58" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="1.49" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="118"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="108610">
+        <param type="endTime" value="109060"/>
+        <param type="compDepth" value="42.58" units="mm"/>
+        <param type="compPeakTime" value="108800" units="ms"/>
+        <param type="compInstantaneousPeriod" value="500" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.58" units="mm"/>
+        <param type="compLeaningDepth" value="1.49" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="118"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="109120">
+        <param type="endTime" value="109600"/>
+        <param type="compDepth" value="42.58" units="mm"/>
+        <param type="compPeakTime" value="109320" units="ms"/>
+        <param type="compInstantaneousPeriod" value="520" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.58" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="1.79" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="115"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="109620">
+        <param type="endTime" value="110100"/>
+        <param type="compDepth" value="42.09" units="mm"/>
+        <param type="compPeakTime" value="109820" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.09" units="mm"/>
+        <param type="compLeaningDepth" value="1.79" units="mm"/>
+        <param type="compReleaseDepth" value="1.79" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="118"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="110140">
+        <param type="endTime" value="110650"/>
+        <param type="compDepth" value="42.09" units="mm"/>
+        <param type="compPeakTime" value="110350" units="ms"/>
+        <param type="compInstantaneousPeriod" value="530" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.09" units="mm"/>
+        <param type="compLeaningDepth" value="1.79" units="mm"/>
+        <param type="compReleaseDepth" value="1.19" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="115"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="110660">
+        <param type="endTime" value="111120"/>
+        <param type="compDepth" value="42.58" units="mm"/>
+        <param type="compPeakTime" value="110860" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.58" units="mm"/>
+        <param type="compLeaningDepth" value="1.19" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="117"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="111180">
+        <param type="endTime" value="111630"/>
+        <param type="compDepth" value="42.09" units="mm"/>
+        <param type="compPeakTime" value="111370" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.09" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="1.79" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="117"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="111680">
+        <param type="endTime" value="112150"/>
+        <param type="compDepth" value="42.34" units="mm"/>
+        <param type="compPeakTime" value="111890" units="ms"/>
+        <param type="compInstantaneousPeriod" value="520" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.34" units="mm"/>
+        <param type="compLeaningDepth" value="1.79" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="117"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="112220">
+        <param type="endTime" value="112780"/>
+        <param type="compDepth" value="42.34" units="mm"/>
+        <param type="compPeakTime" value="112430" units="ms"/>
+        <param type="compInstantaneousPeriod" value="530" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.34" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="1.49" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="115"/>
+    </evt>
+    <evt type="CprVentEvent" msecs="113270">
+        <param type="endTime" value="113860"/>
+        <param type="ventVolume" value="29" units="ml"/>
+        <param type="ventRate" value="24" units="vpm"/>
+        <param type="ventInstantaneousPeriod" value="9390" units="ms"/>
+        <param type="ventPeakTime" value="113860" units="ms"/>
+        <param type="ventDuringCompression" value="0"/>
+    </evt>
+    <evt type="CprVentEvent" msecs="114810">
+        <param type="endTime" value="115320"/>
+        <param type="ventVolume" value="29" units="ml"/>
+        <param type="ventRate" value="23" units="vpm"/>
+        <param type="ventInstantaneousPeriod" value="1450" units="ms"/>
+        <param type="ventPeakTime" value="115320" units="ms"/>
+        <param type="ventDuringCompression" value="0"/>
+    </evt>
+    <evt type="CprInactivityCPR" msecs="112620">
+        <param type="compInactivity" value="3" units="sec"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="115860">
+        <param type="endTime" value="116410"/>
+        <param type="compDepth" value="42.09" units="mm"/>
+        <param type="compPeakTime" value="116120" units="ms"/>
+        <param type="compInstantaneousPeriod" value="3690" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.09" units="mm"/>
+        <param type="compLeaningDepth" value="1.49" units="mm"/>
+        <param type="compReleaseDepth" value="1.49" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="114"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="116410">
+        <param type="endTime" value="116870"/>
+        <param type="compDepth" value="42.34" units="mm"/>
+        <param type="compPeakTime" value="116600" units="ms"/>
+        <param type="compInstantaneousPeriod" value="490" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.34" units="mm"/>
+        <param type="compLeaningDepth" value="1.49" units="mm"/>
+        <param type="compReleaseDepth" value="3.28" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="116"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="116910">
+        <param type="endTime" value="117360"/>
+        <param type="compDepth" value="42.58" units="mm"/>
+        <param type="compPeakTime" value="117090" units="ms"/>
+        <param type="compInstantaneousPeriod" value="490" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.58" units="mm"/>
+        <param type="compLeaningDepth" value="3.28" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="119"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="117370">
+        <param type="endTime" value="117820"/>
+        <param type="compDepth" value="42.34" units="mm"/>
+        <param type="compPeakTime" value="117570" units="ms"/>
+        <param type="compInstantaneousPeriod" value="480" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.34" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="123"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="117890">
+        <param type="endTime" value="118340"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="118080" units="ms"/>
+        <param type="compInstantaneousPeriod" value="500" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="121"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="118400">
+        <param type="endTime" value="118850"/>
+        <param type="compDepth" value="41.6" units="mm"/>
+        <param type="compPeakTime" value="118590" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="41.6" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="2.09" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="120"/>
+    </evt>
+    <evt type="CprCompEvent" msecs="118900">
+        <param type="endTime" value="119370"/>
+        <param type="compDepth" value="42.09" units="mm"/>
+        <param type="compPeakTime" value="119090" units="ms"/>
+        <param type="compInstantaneousPeriod" value="510" units="ms"/>
+        <param type="compAbsolutePeakDepth" value="42.09" units="mm"/>
+        <param type="compLeaningDepth" value="2.09" units="mm"/>
+        <param type="compReleaseDepth" value="2.39" units="mm"/>
+        <param type="compHandposXiphoid" value="0"/>
+        <param type="compHandposError" value="0"/>
+        <param type="compIncompleteRelease" value="0"/>
+        <param type="compMeanRate" value="119"/>
+    </evt>
+</eventList>
